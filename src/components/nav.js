@@ -2,7 +2,7 @@ function Nav() {
   return (
     <div className="bg-[#0025FF] h-[90px] p-3 flex flex-row font-ULTRA font-extrabold w-full">
       <div className="h-full flex flex-col">
-        <img src="Pepsi Logo.png" alt="logo" className="h-full" />
+        <img src="Pepsi Logo.png" alt="logo" className="h-full cursor-pointer hover:animate-logoAnim" />
       </div>
       <div className="flex flex-row gap-16 ml-10 text-[12px]">
         <div className="flex flex-row">

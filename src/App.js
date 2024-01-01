@@ -7,6 +7,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { SiYoutube } from "react-icons/si";
 import { IoLogoTiktok } from "react-icons/io5";
 import { BsThreads } from "react-icons/bs";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -73,7 +74,7 @@ function App() {
         <p>STAY ON THE PULSE. FOLLOW PEPSI.</p>
       </div>
 
-      <div className="h-[200px] bg-white w-[87%] mx-auto flex flex-row overflow-hidden ">
+      <div className="h-[200px] bg-white w-[87%] mx-auto flex flex-row overflow-hidden mb-20">
         <div className="flex flex-col w-[16.666666666666666%] h-full overflow-hidden relative">
           <img
             src="1.png"
@@ -123,6 +124,7 @@ function App() {
           <BsThreads className="w-9 h-9 text-[#ffffffcb] absolute bottom-0 left-0 m-2" />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
