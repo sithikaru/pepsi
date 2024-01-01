@@ -62,6 +62,31 @@ function App() {
           muted="true"
         ></video>
       </div>
+      <div className="text-center text-[#1636FF] mx-auto py-6 text-[2.5rem]">
+        <p>STAY ON THE PULSE. FOLLOW PEPSI.</p>
+      </div>
+    
+
+    <div className="h-[200px] bg-white w-[87%] mx-auto flex flex-row overflow-hidden">
+        <div className="flex flex-col w-[16.666666666666666%] h-full  overflow-hidden">
+          <img src="1.png" alt="" className="hover:rotate-6 hover:scale-125 ease-in-out duration-200"/>
+        </div>
+        <div className=" flex flex-col w-[16.666666666666666%] h-full overflow-hidden">
+          <img src="2.png" alt="" className="hover:rotate-6 hover:scale-125 ease-in-out duration-200"/>
+        </div>
+        <div className=" flex flex-col w-[16.666666666666666%] h-full overflow-hidden">
+          <img src="3.png" alt="" className="hover:rotate-6 hover:scale-125 ease-in-out duration-200"/>
+        </div>
+        <div className=" flex flex-col w-[16.666666666666666%] h-full overflow-hidden">
+          <img src="4.png" alt="" className="hover:rotate-6 hover:scale-125 ease-in-out duration-200"/>
+        </div>
+        <div className=" flex flex-col w-[16.666666666666666%] h-full overflow-hidden">
+          <img src="5.png" alt="" className="hover:rotate-6 hover:scale-125 ease-in-out duration-200"/>
+        </div>
+        <div className=" flex flex-col w-[16.666666666666666%] h-full overflow-hidden">
+          <img src="6.png" alt="" className="hover:rotate-6 hover:scale-125 ease-in-out duration-200"/>
+        </div>
+    </div>
     </div>
   );
 }
